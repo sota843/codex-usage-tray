@@ -1,0 +1,43 @@
+{
+  "source": "local_logs",
+  "codex_home": null,
+  "sessions_dir": null,
+  "poll_interval_sec": 30,
+  "manual_min_interval_sec": 5,
+  "stale_after_sec": 300,
+  "max_files": 100,
+  "max_tail_bytes": 4194304,
+  "thresholds": {
+    "warn": 0.6,
+    "crit": 0.85
+  },
+  "colors": {
+    "ok": [
+      60,
+      200,
+      90
+    ],
+    "warn": [
+      235,
+      185,
+      20
+    ],
+    "crit": [
+      225,
+      55,
+      55
+    ],
+    "track": [
+      70,
+      70,
+      70
+    ],
+    "unknown": [
+      130,
+      130,
+      130
+    ]
+  },
+  "show_center_text": true,
+  "icon_size": 64
+}

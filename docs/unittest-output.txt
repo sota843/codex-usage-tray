@@ -1,0 +1,53 @@
+test_display_expires_without_another_fetch (test_gauge.GaugeAndUITests.test_display_expires_without_another_fetch) ... ok
+test_failure_preserves_unexpired_rings (test_gauge.GaugeAndUITests.test_failure_preserves_unexpired_rings) ... ok
+test_icon_is_rgba_and_requested_size (test_gauge.GaugeAndUITests.test_icon_is_rgba_and_requested_size) ... ok
+test_manual_updates_are_throttled_even_after_failure (test_gauge.GaugeAndUITests.test_manual_updates_are_throttled_even_after_failure) ... ok
+test_thresholds_are_inclusive (test_gauge.GaugeAndUITests.test_thresholds_are_inclusive) ... ok
+test_tooltip_limits_utf16_units (test_gauge.GaugeAndUITests.test_tooltip_limits_utf16_units) ... ok
+test_unknown_and_zero_are_different_images (test_gauge.GaugeAndUITests.test_unknown_and_zero_are_different_images) ... ok
+test_codex_home_environment_is_respected (test_usage.ConfigTests.test_codex_home_environment_is_respected) ... ok
+test_invalid_options_use_safe_defaults (test_usage.ConfigTests.test_invalid_options_use_safe_defaults) ... ok
+test_partial_deep_merge_and_config_errors (test_usage.ConfigTests.test_partial_deep_merge_and_config_errors) ... ok
+test_polling_floors_are_enforced (test_usage.ConfigTests.test_polling_floors_are_enforced) ... ok
+test_cached_read_keeps_original_observation_and_expires (test_usage.UsageTests.test_cached_read_keeps_original_observation_and_expires) ... ok
+test_codex_bucket_is_supported (test_usage.UsageTests.test_codex_bucket_is_supported) ... ok
+test_corrupt_json_reports_failure (test_usage.UsageTests.test_corrupt_json_reports_failure) ... ok
+test_corrupt_line_does_not_hide_valid_event (test_usage.UsageTests.test_corrupt_line_does_not_hide_valid_event) ... ok
+test_corrupt_state_does_not_crash (test_usage.UsageTests.test_corrupt_state_does_not_crash) ... ok
+test_diagnostics_missing_corrupt_and_unexpected_auth (test_usage.UsageTests.test_diagnostics_missing_corrupt_and_unexpected_auth) ... ok
+test_diagnostics_only_include_known_keys_and_types (test_usage.UsageTests.test_diagnostics_only_include_known_keys_and_types) ... ok
+test_duplicate_duration_is_not_silently_overwritten (test_usage.UsageTests.test_duplicate_duration_is_not_silently_overwritten) ... ok
+test_errors_do_not_echo_session_content (test_usage.UsageTests.test_errors_do_not_echo_session_content) ... ok
+test_expired_reset_is_unknown_not_zero (test_usage.UsageTests.test_expired_reset_is_unknown_not_zero) ... ok
+test_failure_retains_snapshot_and_persists_across_restart (test_usage.UsageTests.test_failure_retains_snapshot_and_persists_across_restart) ... ok
+test_file_disappears_while_reading (test_usage.UsageTests.test_file_disappears_while_reading) ... ok
+test_future_event_rejected (test_usage.UsageTests.test_future_event_rejected) ... ok
+test_invalid_numeric_values_and_reset_types (test_usage.UsageTests.test_invalid_numeric_values_and_reset_types) ... ok
+test_invalid_saved_snapshot_is_reported (test_usage.UsageTests.test_invalid_saved_snapshot_is_reported) ... ok
+test_latest_event_selected_by_timestamp (test_usage.UsageTests.test_latest_event_selected_by_timestamp) ... ok
+test_missing_directory_and_empty_directory (test_usage.UsageTests.test_missing_directory_and_empty_directory) ... ok
+test_missing_duration_never_guesses_five_hours (test_usage.UsageTests.test_missing_duration_never_guesses_five_hours) ... ok
+test_new_partial_snapshot_does_not_mix_old_weekly_value (test_usage.UsageTests.test_new_partial_snapshot_does_not_mix_old_weekly_value) ... ok
+test_no_supported_duration_is_failure (test_usage.UsageTests.test_no_supported_duration_is_failure) ... ok
+test_normal_windows_and_unix_seconds (test_usage.UsageTests.test_normal_windows_and_unix_seconds) ... ok
+test_null_and_missing_percent (test_usage.UsageTests.test_null_and_missing_percent) ... ok
+test_null_quota_event_does_not_erase_known_reading (test_usage.UsageTests.test_null_quota_event_does_not_erase_known_reading) ... ok
+test_other_bucket_is_ignored (test_usage.UsageTests.test_other_bucket_is_ignored) ... ok
+test_other_session_directory_does_not_restore_state (test_usage.UsageTests.test_other_session_directory_does_not_restore_state) ... ok
+test_partial_last_line_is_retried_after_completion (test_usage.UsageTests.test_partial_last_line_is_retried_after_completion) ... ok
+test_percent_boundaries_and_clamped_geometry (test_usage.UsageTests.test_percent_boundaries_and_clamped_geometry) ... ok
+test_permission_error_is_visible (test_usage.UsageTests.test_permission_error_is_visible) ... ok
+test_single_window (test_usage.UsageTests.test_single_window) ... ok
+test_state_only_contains_quota_and_storage_scope (test_usage.UsageTests.test_state_only_contains_quota_and_storage_scope) ... ok
+test_state_write_failure_keeps_value_in_memory_and_surfaces_error (test_usage.UsageTests.test_state_write_failure_keeps_value_in_memory_and_surfaces_error) ... ok
+test_tail_read_handles_large_unrelated_record (test_usage.UsageTests.test_tail_read_handles_large_unrelated_record) ... ok
+test_timestamp_offset_conversion (test_usage.UsageTests.test_timestamp_offset_conversion) ... ok
+test_timestamp_requires_timezone (test_usage.UsageTests.test_timestamp_requires_timezone) ... ok
+test_unexpected_schemas (test_usage.UsageTests.test_unexpected_schemas) ... ok
+test_unknown_reset_is_not_current_usage (test_usage.UsageTests.test_unknown_reset_is_not_current_usage) ... ok
+test_window_duration_not_position (test_usage.UsageTests.test_window_duration_not_position) ... ok
+
+----------------------------------------------------------------------
+Ran 48 tests in 0.035s
+
+OK
